@@ -5,7 +5,7 @@
 using namespace std;
 
 /*
-Å¥ ±¸Çö
+í êµ¬í˜„
 
 https://www.acmicpc.net/problem/10845
 */

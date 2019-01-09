@@ -7,7 +7,7 @@
 using namespace std;
 
 /*
-½ºÅÃ ±¸Çö
+ìŠ¤íƒ êµ¬í˜„
 
 https://www.acmicpc.net/problem/10828
 */
@@ -22,12 +22,12 @@ int main() {
   cin.ignore();
 
   while (n--) {
-    string line;            // ¸í·É¾î
-    getline(cin, line);     // ¸í·É¾î ÀÔ·Â¹Ş´Â´Ù.
-    string buff;            // ¹öÆÛ
-    stringstream ss(line);  // stringÀ» stream¿¡ ³Ö´Â´Ù.
+    string line;            // ëª…ë ¹ì–´
+    getline(cin, line);
+    string buff;            // ë²„í¼
+    stringstream ss(line);  // stringstream ì— ëª…ë ¹ì–´ ë„£ê¸°.
 
-    vector<string> commands;  // ¸í·É¾î¸¦ ³ÖÀ» vector
+    vector<string> commands;  // tokenì„ ë‹´ì„ commands
     while (ss >> buff) {
       commands.push_back(buff);
     }

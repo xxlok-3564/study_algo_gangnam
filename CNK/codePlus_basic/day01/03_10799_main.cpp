@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-¼è¸·´ë±â
+ì‡ ë§‰ëŒ€ê¸°
 
 https://www.acmicpc.net/problem/10799
 */
@@ -20,10 +20,10 @@ int main() {
     if (line[i] == '(') {
       stk.push(i);
     } else {
-      if (i - stk.top() == 1) { // Àı´Ü
+      if (i - stk.top() == 1) { // ë ˆì´ì €
         stk.pop();
         cnt += stk.size();
-      } else if(!stk.empty()) {  // ¸·´ë±â ³¡
+      } else if(!stk.empty()) {  // ì‡ ë§‰ëŒ€ê¸° ë
         stk.pop();
         cnt += 1;
       }

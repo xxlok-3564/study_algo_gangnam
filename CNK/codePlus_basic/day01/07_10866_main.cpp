@@ -3,7 +3,7 @@
 
 using namespace std;
 /*
-µ¶
+Îç±
 
 https://www.acmicpc.net/problem/10866
 */

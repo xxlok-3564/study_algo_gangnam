@@ -7,7 +7,7 @@
 using namespace std;
 
 /*
-¿¡µğÅÍ
+ì—ë””í„°
 
 https://www.acmicpc.net/problem/1406
 */
@@ -52,7 +52,7 @@ int main() {
     if (command == "P") {
       char c;
       cin >> c;
-      left.push(c);  // charÇüÅÂ·Î ¹Ş´Â´Ù.
+      left.push(c);  // char ë‹¨ìœ„
     }
   }
 

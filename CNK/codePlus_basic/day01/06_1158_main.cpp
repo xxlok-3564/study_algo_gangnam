@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-¡∂ºº∆€Ω∫ πÆ¡¶
+Ï°∞ÏÑ∏ÌçºÏä§ Î¨∏Ï†ú
 
 https://www.acmicpc.net/problem/1158
 */
