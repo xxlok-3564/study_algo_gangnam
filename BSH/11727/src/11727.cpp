@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 11656.cpp
+// Name        : 11727.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,27 +7,22 @@
 //============================================================================
 
 #include <iostream>
-#include <string>
-#include <queue>
-#include <vector>
-#include <functional>
+#define ll long long
 using namespace std;
 
 int main() {
 
-	string a;
-	priority_queue< string, vector<string>, greater<string> > pq;
-	cin >> a;
+	ll arr[1001];
+	int N;
 
-	for(unsigned i =0; i < a.size(); i++)
-		pq.push(a.substr(i, a.size()));
+	cin >> N;
 
-	for(unsigned i =0; i < a.size(); i++){
-		cout << pq.top() << "\n";
-		pq.pop();
-	}
+	arr[1] = 1;
+	arr[2] = 3;
+	for (int i = 3; i <= N; i++)
+		arr[i] = (arr[i - 1] + 2 * arr[i - 2]) % 10007;
 
-
+	cout << arr[N];
 
 	return 0;
 }
