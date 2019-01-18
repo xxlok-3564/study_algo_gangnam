@@ -42,7 +42,7 @@ int main(int argc, char const* argv[]) {
     //   cout << '\n';
     // }
 
-    cout << max(dp[n][0], max(dp[n][1], dp[n][4])) << '\n';
+    cout << max(dp[n][0], max(dp[n][1], dp[n][2])) << '\n';
   }
 
   return 0;

@@ -1,3 +1,8 @@
+/*
+채점
+https://www.acmicpc.net/problem/6989
+*/
+
 #include <algorithm>
 #include <iostream>
 #include <vector>
