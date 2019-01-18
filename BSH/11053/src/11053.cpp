@@ -13,34 +13,30 @@ int main() {
 
 	int N;
 	int arr[1000];
-	int dp[1000];
-	int max;
-
+	int dp[1000][2];
 	cin >> N;
 
-	for(int i = 0; i < N; i++)
+	for (int i = 0; i < N; i++)
 		cin >> arr[i];
 
-	dp[0] = arr[0];
+	dp[0][0] = 0;
+	dp[0][1] = 1;
 
-	for(int i = 1; i < N; i++){
+	for (int i = 1; i < N; i++) {
+
+		dp[i][0] = max(dp[i - 1][0], dp[i - 1][1]);
+
 		int max = 0;
-		int left_idx = 0;
-		int right_idx = i - 1;
-		while(left_idx <= right_idx){
-			if(max < dp[left_idx] + dp[right_idx])
-				max = dp[left_idx] + dp[right_idx];
-			left_idx++;
-			right_idx--;
-		}
-		if(max < arr[i])
-			max = arr[i];
 
-		dp[i] = max;
+		for (int j = 0; j < i; j++)
+			if (arr[j] < arr[i] && dp[j][1] > max)
+				max = dp[j][1];
+
+		dp[i][1] = max + 1;
 
 	}
 
-	cout << dp[N - 1];
+	cout << max(dp[N - 1][0], dp[N - 1][1]);
 
 	return 0;
 }
