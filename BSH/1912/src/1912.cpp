@@ -11,12 +11,13 @@
 #define ll long long
 using namespace std;
 
-ll recursive(ll *arr, ll *dp, int left, int right){
+ll recursive(ll *arr, ll *dp, int left, int right) {
 
-	if(left == right)
+	if (left == right)
 		return dp[left] = arr[left];
 	else
-		return dp[right] = max(recursive(arr, dp, left, right - 1) + arr[right], arr[right]);
+		return dp[right] = max(recursive(arr, dp, left, right - 1) + arr[right],
+				arr[right]);
 
 }
 
@@ -30,12 +31,12 @@ int main() {
 	for (int i = 0; i < N; i++)
 		cin >> arr[i];
 
-	recursive(arr, dp, 0, N-1);
+	recursive(arr, dp, 0, N - 1);
 
 	ll max = dp[0];
 
-	for(int i = 0; i< N; i++)
-		if(dp[i] > max)
+	for (int i = 0; i < N; i++)
+		if (dp[i] > max)
 			max = dp[i];
 
 	cout << max;
