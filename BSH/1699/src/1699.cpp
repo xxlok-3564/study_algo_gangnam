@@ -18,19 +18,26 @@ int main() {
 	int square[100001];
 	square[1] = 1;
 
-	for(int i = 2; i <= N; i++){
+	for (int i = 2; i <= N; i++) {
 		double root = sqrt(i);
 		int lower = floor(root);
 		int upper = ceil(root);
 
-		if(lower == upper)
+		if (lower == upper)
 			square[i] = 1;
-		else
-			square[i] = square[ lower * lower ] + square[ i - lower * lower];
-		cout << i << " " << square[i] << endl;
+		else {
+
+			int min = square[lower * lower] + square[i - lower * lower];
+
+			for (int j = 1; j < lower; j++)
+				if (min > square[i - j * j] + square[j * j])
+					min = square[i - j * j] + square[j * j];
+
+			square[i] = min;
+		}
 	}
 
-	//cout << square[N];
+	cout << square[N];
 
 	return 0;
 }
