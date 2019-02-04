@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 5373.cpp
+// Name        : 14490.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,28 +7,27 @@
 //============================================================================
 
 #include <iostream>
-#include <vector>
-#include <string>
-
 using namespace std;
-
-#define UP 0
-#define DOWN 5
-
-#define FRONT 1
-#define BACK 4
-
-#define LEFT 2
-#define RIGHT 3
-
-char color[6] = { 'w', 'r', 'g', 'b', 'o', 'y' };
-char dir[6] = { 'U', 'F', 'L', 'R', 'B', 'D' };
-
-
 
 int main() {
 
+	int a, b;
+	char c;
 
+	cin >> a >> c >> b;
+
+	int m = min(a, b);
+
+	for (int i = 2; i <= m; i++) {
+
+		while ((a % i == 0) && (b % i == 0)) {
+			a /= i;
+			b /= i;
+		}
+
+	}
+
+	cout << a << ":" << b;
 
 	return 0;
 }
