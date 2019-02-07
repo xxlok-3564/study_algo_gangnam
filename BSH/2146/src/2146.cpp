@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <queue>
+#include <vector>
 
 using namespace std;
 
@@ -72,6 +73,7 @@ int main() {
 						}
 					}
 				}
+
 				num_island++;
 			}
 		}
@@ -79,11 +81,25 @@ int main() {
 	// 여기까지 하면 diff보드에 섬 번호 저장 됨
 
 	init_visit(board, N); // board를 visit 표시 용도로 사용
-	queue<point_info> point_q;
 
-	for (int y = 0; y < N; y++)
-		for (int x = 0; x < N; x++)
-			if (diff_board[y][x] == 0)
+	vector<point_info> point_q;
 
-				return 0;
+	for (int y = 0; y < N; y++) {
+		for (int x = 0; x < N; x++) {
+			if (diff_board[y][x] == 0) {
+				for (int i = 0; i < 4; i++) {
+					if (in_boundary(x + diff_x[i], y + diff_y[i], N)
+							&& diff_board[y + diff_y[i]][x + diff_x[i]])
+						point_q.push_back(
+								{ x, y,
+										diff_board[y + diff_y[i]][x + diff_x[i]],
+										1 });
+				}
+			}
+		}
+	}
+
+	for(vector<point_info>::iterator start;;)
+
+	return 0;
 }
