@@ -24,8 +24,6 @@ using namespace std;
 char color[6] = { 'w', 'r', 'g', 'b', 'o', 'y' };
 char dir[6] = { 'U', 'F', 'L', 'R', 'B', 'D' };
 
-
-
 int main() {
 
 
