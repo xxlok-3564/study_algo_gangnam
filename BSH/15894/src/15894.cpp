@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 5373.cpp
+// Name        : 15894.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -8,25 +8,15 @@
 
 #include <iostream>
 #include <vector>
-#include <string>
-
+#define ll long long
 using namespace std;
 
-#define UP 0
-#define DOWN 5
-
-#define FRONT 1
-#define BACK 4
-
-#define LEFT 2
-#define RIGHT 3
-
-char color[6] = { 'w', 'r', 'g', 'b', 'o', 'y' };
-char dir[6] = { 'U', 'F', 'L', 'R', 'B', 'D' };
-
 int main() {
+	ll n;
 
+	cin >> n;
 
+	cout << 4 * n;
 
 	return 0;
 }

@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 5373.cpp
+// Name        : 11047.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,26 +7,28 @@
 //============================================================================
 
 #include <iostream>
-#include <vector>
-#include <string>
-
 using namespace std;
 
-#define UP 0
-#define DOWN 5
-
-#define FRONT 1
-#define BACK 4
-
-#define LEFT 2
-#define RIGHT 3
-
-char color[6] = { 'w', 'r', 'g', 'b', 'o', 'y' };
-char dir[6] = { 'U', 'F', 'L', 'R', 'B', 'D' };
-
 int main() {
+	int N, K;
+	int money[10];
+	int ans = 0;
 
+	cin >> N >> K;
+	for (int i = 0; i < N; i++)
+		cin >> money[i];
 
+	int idx = N - 1;
+	while (K) {
+
+		while (money[idx] > K)
+			idx--;
+
+		ans += (K / money[idx]);
+		K = K - (K / money[idx] * money[idx]);
+
+	}
+	cout << ans;
 
 	return 0;
 }

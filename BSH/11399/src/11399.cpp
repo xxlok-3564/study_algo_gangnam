@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 5373.cpp
+// Name        : 11399.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,26 +7,29 @@
 //============================================================================
 
 #include <iostream>
-#include <vector>
-#include <string>
-
+#include <queue>
 using namespace std;
 
-#define UP 0
-#define DOWN 5
-
-#define FRONT 1
-#define BACK 4
-
-#define LEFT 2
-#define RIGHT 3
-
-char color[6] = { 'w', 'r', 'g', 'b', 'o', 'y' };
-char dir[6] = { 'U', 'F', 'L', 'R', 'B', 'D' };
-
 int main() {
+	int N;
+	priority_queue<int, deque<int>, greater<int> > q;
+	cin >> N;
 
+	int temp;
+	for (int i = 0; i < N; i++) {
+		cin >> temp;
+		q.push(temp);
+	}
 
+	long long ans = 0;
+	long long sum = 0;
+	while (!q.empty()) {
+		sum = (sum + q.top());
+		ans += sum;
+		q.pop();
+	}
+
+	cout << ans;
 
 	return 0;
 }

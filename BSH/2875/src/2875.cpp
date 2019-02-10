@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 5373.cpp
+// Name        : 2875.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,26 +7,25 @@
 //============================================================================
 
 #include <iostream>
-#include <vector>
-#include <string>
-
 using namespace std;
 
-#define UP 0
-#define DOWN 5
-
-#define FRONT 1
-#define BACK 4
-
-#define LEFT 2
-#define RIGHT 3
-
-char color[6] = { 'w', 'r', 'g', 'b', 'o', 'y' };
-char dir[6] = { 'U', 'F', 'L', 'R', 'B', 'D' };
-
 int main() {
+	int N, M, K;
+	int ans = 0;
+	cin >> N >> M >> K;
 
+	while (1) {
 
+		//셋이 빠지면 안되거나 남,녀가 충분하지 않으면...
+		if (N + M - 3 < K || N < 2 || M < 1)
+			break;
+
+		N -= 2;
+		M -= 1;
+		ans++;
+	}
+
+	cout << ans;
 
 	return 0;
 }
