@@ -9,28 +9,43 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
 
+bool comp(pair<int, int> &a, pair<int, int> &b) {
+
+	if(a.first > b.first)
+		return true;
+	else{
+		if(a.first == b.first){
+			if(a.second > b.second)
+				return true;
+		}
+	}
+
+	return false;
+}
+
 int main() {
+
 	int N;
+	vector<pair<int, int> > arr;
 	cin >> N;
 
-	vector<pair<int, int> > arr(N);
+	int a, b;
+	for (int i = 0; i < N; i++) {
+		cin >> a >> b;
+		arr.push_back( { a, b });
+	}
 
-	for (int i = 0; i < N; i++)
-		cin >> arr[i].first >> arr[i].second;
+	sort(arr.begin(), arr.end(), comp);
 
-	sort(arr.begin(), arr.end(), greater<pair<int, int> >());
-
+	int end = arr[0].second;
 	int ans = 0;
-	int end_time = 0x8fff;
-
-	vector<pair<int, int> >::iterator iter = arr.begin();
-
-	for (unsigned i = 0; i < arr.size(); i++) {
-		if (arr[i].second <= end_time) {
+	for (int i = 0; i < N; i++) {
+		if(arr[i].second <= end){
+			end = arr[i].first;
 			ans++;
-			end_time = arr[i].first;
 		}
 	}
 

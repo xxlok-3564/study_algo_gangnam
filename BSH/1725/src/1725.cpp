@@ -11,7 +11,7 @@
 #include <algorithm>
 #include <cmath>
 
-#define MAX_INT 0x7ffffff
+#define MAX_INT 0x7fffffff
 
 using namespace std;
 
