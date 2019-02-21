@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1080" targetName="1080" />
+      <config projectName="combination" targetName="combination" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,11 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef110bc-3cc8-446b-a7ec-84a429eb3b39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../combination/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/1080" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/1080" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="cff6aafe-6947-43fe-aa42-43757f95fd5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../1080/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1080/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1080/cmake-build-debug/1080" beforeDir="false" afterPath="$PROJECT_DIR$/../1080/cmake-build-debug/1080" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1080/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1080/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1783/exportToHTML/main.cpp.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../KAKAO_오픈채팅방/.cproject" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../KAKAO_오픈채팅방/.gitignore" beforeDir="false" />
@@ -37,7 +36,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -77,17 +76,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="1080" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1080" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,7 +97,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1080" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1080" TARGET_NAME="1080" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1080" RUN_TARGET_NAME="1080">
+    <configuration name="combination" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="combination" TARGET_NAME="combination" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="combination" RUN_TARGET_NAME="combination">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -119,43 +108,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ef110bc-3cc8-446b-a7ec-84a429eb3b39" name="Default Changelist" comment="" />
-      <created>1550718198799</created>
+      <changelist id="cff6aafe-6947-43fe-aa42-43757f95fd5d" name="Default Changelist" comment="" />
+      <created>1550759004528</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550718198799</updated>
-      <workItem from="1550718200432" duration="283000" />
-      <workItem from="1550718713158" duration="4222000" />
+      <updated>1550759004528</updated>
+      <workItem from="1550759006246" duration="584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4505000" />
+    <option name="totallyTimeSpent" value="584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3581135" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32952693" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,13 +152,10 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/input1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
