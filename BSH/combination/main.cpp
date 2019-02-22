@@ -64,7 +64,7 @@ void f4(int depth, int n, int c, int start_idx, vector<int> &arr) {
     if (depth == c) {
 
         for (int i = 0; i < c; i++)
-            cout << arr[idx_list[i]];
+            cout << arr[idx_list[i]] << " ";
 
         cout << endl;
         return;
@@ -76,7 +76,6 @@ void f4(int depth, int n, int c, int start_idx, vector<int> &arr) {
         f4(depth + 1, n, c, i + 1, arr);
 
     }
-
 
 }
 
