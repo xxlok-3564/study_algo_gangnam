@@ -59,7 +59,7 @@ int f3(int n, int r, vector<int> &arr) {
 
 int idx_list[1000];
 
-void f4(int depth, int n, int c, int start_idx, vector<int> &arr) {
+void f4(int depth, int start_idx, int n, int c, vector<int> &arr) {
 
     if (depth == c) {
 
@@ -73,7 +73,27 @@ void f4(int depth, int n, int c, int start_idx, vector<int> &arr) {
     for (int i = start_idx; i < n; i++) {
         idx_list[depth] = i;
 
-        f4(depth + 1, n, c, i + 1, arr);
+        f4(depth + 1, i + 1, n, c, arr);
+
+    }
+
+}
+
+void f5(int depth, int n, int c, vector<int> &arr) {
+
+    if (depth == c) {
+
+        for (int i = 0; i < c; i++)
+            cout << arr[idx_list[i]] << " ";
+
+        cout << endl;
+        return;
+    }
+
+    for (int i = 0; i < n; i++) {
+        idx_list[depth] = i;
+
+        f5(depth + 1, n, c, arr);
 
     }
 
@@ -106,6 +126,12 @@ int main() {
     cout << "-------------------------" << endl;
 
     //f4(0, n, c, 0, arr);
+
+    cout << "-------------------------" << endl;
+
+    //f5(0, n, c, arr);
+
+    cout << "-------------------------" << endl;
 
 
     return 0;
