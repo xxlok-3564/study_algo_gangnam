@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="5373" targetName="5373" />
+      <config projectName="1525" targetName="1525" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,12 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fa920e-c9d6-4a7f-9c72-95cae79cc8a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../1525/.cproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/.settings/language.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/src/1525.cpp" beforeDir="false" />
+    <list default="true" id="adc323e9-ce58-4349-9676-5e63c0df2e54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/language.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1525.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5373/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5373/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -69,8 +70,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -91,7 +92,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="5373" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5373" TARGET_NAME="5373" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5373" RUN_TARGET_NAME="5373">
+    <configuration name="1525" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1525" TARGET_NAME="1525" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1525" RUN_TARGET_NAME="1525">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -102,32 +103,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43fa920e-c9d6-4a7f-9c72-95cae79cc8a4" name="Default Changelist" comment="" />
-      <created>1551172026933</created>
+      <changelist id="adc323e9-ce58-4349-9676-5e63c0df2e54" name="Default Changelist" comment="" />
+      <created>1551802805896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551172026933</updated>
-      <workItem from="1551172029099" duration="6918000" />
-      <workItem from="1551212769143" duration="5940000" />
-      <workItem from="1551218967007" duration="321000" />
-      <workItem from="1551802727733" duration="109000" />
+      <updated>1551802805896</updated>
+      <workItem from="1551802808992" duration="6049000" />
+      <workItem from="1551838351216" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13288000" />
+    <option name="totallyTimeSpent" value="6133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19904077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -146,60 +145,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="cube[0].color" language="ObjectiveC" />
-        <watch expression="cube[1].color" language="ObjectiveC" />
-        <watch expression="cube[2].color" language="ObjectiveC" />
-        <watch expression="cube[3].color" language="ObjectiveC" />
-        <watch expression="cube[4].color" language="ObjectiveC" />
-        <watch expression="cube[5].color" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>cube[5].color</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cube[4].color</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cube[3].color</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cube[2].color</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cube[1].color</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cube[0].color</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
