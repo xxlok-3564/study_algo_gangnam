@@ -12,11 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43fa920e-c9d6-4a7f-9c72-95cae79cc8a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../1525/.cproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/.settings/language.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1525/src/1525.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1525/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1525/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1525/cmake-build-debug/1525" beforeDir="false" afterPath="$PROJECT_DIR$/../1525/cmake-build-debug/1525" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1525/cmake-build-debug/CMakeFiles/1525.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../1525/cmake-build-debug/CMakeFiles/1525.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1525/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1525/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/5373" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/5373" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5373.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/5373.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +39,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="232">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#2733#3550#0" />
+                <element signature="e#4371#5188#0" />
               </folding>
             </state>
           </provider>
@@ -58,7 +63,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
+    <option name="x" value="716" />
     <option name="y" value="25" />
     <option name="width" value="650" />
     <option name="height" value="743" />
@@ -75,6 +80,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -111,17 +117,22 @@
       <workItem from="1551212769143" duration="5940000" />
       <workItem from="1551218967007" duration="321000" />
       <workItem from="1551802727733" duration="109000" />
+      <workItem from="1551962481490" duration="6963000" />
+      <workItem from="1551976138783" duration="2715000" />
+      <workItem from="1552008935204" duration="7730000" />
+      <workItem from="1552016778207" duration="968000" />
+      <workItem from="1552041770083" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13288000" />
+    <option name="totallyTimeSpent" value="31744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19904077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14228617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,10 +209,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="232">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#2733#3550#0" />
+            <element signature="e#4371#5188#0" />
           </folding>
         </state>
       </provider>
