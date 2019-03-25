@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1939.dir/main.cpp.o  -o 1939 
