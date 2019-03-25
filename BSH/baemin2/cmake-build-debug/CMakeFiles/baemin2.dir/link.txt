@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/baemin2.dir/main.cpp.o  -o baemin2 

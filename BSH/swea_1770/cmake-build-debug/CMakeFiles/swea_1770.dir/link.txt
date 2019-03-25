@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/swea_1770.dir/main.cpp.o  -o swea_1770 
