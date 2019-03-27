@@ -9,7 +9,7 @@
 using namespace std;
 
 int multiAll(int num) {
-  int tot = 0;
+  int tot = 1;
   while (num > 0) {
     tot *= num % 10;
     num /= 10;
