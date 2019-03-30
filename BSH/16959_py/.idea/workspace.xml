@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6080bf46-3c6d-4dd4-8767-83614af11f7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../7562_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7562_py/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kakao_2017_06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kakao_2017_06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swea_1768/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../swea_1768/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swea_1768/cmake-build-debug/CMakeFiles/swea_1768.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../swea_1768/cmake-build-debug/CMakeFiles/swea_1768.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swea_1768/cmake-build-debug/swea_1768" beforeDir="false" afterPath="$PROJECT_DIR$/../swea_1768/cmake-build-debug/swea_1768" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swea_1768/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../swea_1768/solution.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,7 +67,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,16 +98,18 @@
       <updated>1552906731611</updated>
       <workItem from="1552906735949" duration="935000" />
       <workItem from="1553361573805" duration="18000" />
+      <workItem from="1553823041570" duration="101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="953000" />
+    <option name="totallyTimeSpent" value="1054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25819343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
