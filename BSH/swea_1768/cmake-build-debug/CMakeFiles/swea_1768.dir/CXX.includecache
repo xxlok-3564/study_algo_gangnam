@@ -7,4 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/bsh/study_algo_gangnam/BSH/swea_1768/solution.cpp
+set
+-
+vector
+-
+algorithm
+-
+iostream
+-
 
