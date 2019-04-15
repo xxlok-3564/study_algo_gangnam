@@ -18,7 +18,6 @@ typedef struct {
 
 extern Result query(int guess[]);
 
-
 void doUserImplementation(int guess[]) {
 
 
