@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bsh/study_algo_gangnam/BSH/17141/main.cpp
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+queue
+-
+
