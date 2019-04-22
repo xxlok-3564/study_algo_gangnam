@@ -12,30 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9be04c48-8172-4658-92c3-b7bba4c34af1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/17143.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2752/.idea/2752.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2752/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2752/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2752/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7333/.idea/7333.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7333/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7333/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7333/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15665/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15665/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15666/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15666/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2206/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2206/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2206/cmake-build-debug/2206" beforeDir="false" afterPath="$PROJECT_DIR$/../2206/cmake-build-debug/2206" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2206/cmake-build-debug/CMakeFiles/2206.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../2206/cmake-build-debug/CMakeFiles/2206.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2206/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2206/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9019/.cproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9019/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9019/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9019/.settings/language.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9019/.settings/org.eclipse.cdt.codan.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9019/src/9019.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17141/.idea/17141.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17141/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17141/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17141/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17142/.idea/17142.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../17142/.idea/17142.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17142/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17142/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17142/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17142/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17142/cmake-build-debug/CMakeFiles/17142.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../17142/cmake-build-debug/CMakeFiles/17142.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17142/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../17142/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="112" column="91" lean-forward="true" selection-start-line="112" selection-start-column="91" selection-end-line="112" selection-end-column="91" />
+              <caret line="112" column="91" selection-start-line="112" selection-start-column="91" selection-end-line="112" selection-end-column="91" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -98,6 +83,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -137,17 +123,18 @@
       <workItem from="1555283368867" duration="1401000" />
       <workItem from="1555340394931" duration="8113000" />
       <workItem from="1555363892523" duration="1452000" />
+      <workItem from="1555450099633" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18710000" />
+    <option name="totallyTimeSpent" value="18713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2629896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26778576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +203,7 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="112" column="91" lean-forward="true" selection-start-line="112" selection-start-column="91" selection-end-line="112" selection-end-column="91" />
+          <caret line="112" column="91" selection-start-line="112" selection-start-column="91" selection-end-line="112" selection-end-column="91" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
