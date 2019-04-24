@@ -36,3 +36,10 @@
 
 # input.txt
 input.txt
+
+# eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.class
