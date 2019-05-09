@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2504.dir/main.cpp.o  -o 2504 
