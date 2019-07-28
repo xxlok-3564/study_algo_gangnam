@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/190728_B.dir/main.cpp.o CMakeFiles/190728_B.dir/solution.cpp.o  -o 190728_B 
