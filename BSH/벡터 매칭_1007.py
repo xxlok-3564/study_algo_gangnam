@@ -19,7 +19,10 @@ from math import sqrt
 
 
 def calc_distance(a, b):
-    return sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)
+    x = b[0] - a[0]
+    y = b[1] - a[1]
+
+    return sqrt(x ** 2 + y ** 2)
 
 
 def all_selected(selected_dot):
@@ -29,21 +32,42 @@ def all_selected(selected_dot):
     return True
 
 
-def dfs(dot_list, selected_dot, total_distance):
-
+def dfs(dot_list, idx_list, selected_dot, total_distance):
     if all_selected(selected_dot):
-        return
+        return total_distance
 
     remained = list()
+    for idx in idx_list:
+        if not selected_dot[idx]:
+            remained.append(idx)
 
+    candidates = combinations(remained, 2)
 
+    for selected_two in candidates:
+        selected_dot[selected_two[0]] = True
+        selected_dot[selected_two[1]] = True
+
+        vector_distance = calc_distance(dot_list[selected_two[0]], dot_list[selected_two[1]])
+        total_distance += vector_distance
+
+        result = dfs(dot_list, idx_list, selected_dot, total_distance)
+
+        if result < total_distance:
+            total_distance = result
+
+        total_distance -= vector_distance
+
+        selected_dot[selected_two[0]] = False
+        selected_dot[selected_two[1]] = False
+
+    return total_distance
 
 
 def main():
     T = int(input())
 
     for _ in range(T):
-        distance = 0.0
+        distance = 10000000000000000000000000000000.0
         num_dot = int(input())
         dot_list = []
         selected_dot = [False] * num_dot
@@ -61,13 +85,15 @@ def main():
 
             total_distance = calc_distance(dot_list[selected_two[0]], dot_list[selected_two[1]])
 
-            result = dfs(dot_list, selected_dot, total_distance)
+            result = dfs(dot_list, idx_list, selected_dot, total_distance)
 
             if result < distance:
-                result = distance
+                distance = result
 
             selected_dot[selected_two[0]] = False
             selected_dot[selected_two[1]] = False
+
+        print(distance)
 
 
 if __name__ == "__main__":
