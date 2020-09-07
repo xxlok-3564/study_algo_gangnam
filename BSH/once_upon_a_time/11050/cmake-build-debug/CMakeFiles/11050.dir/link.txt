@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/11050.dir/main.cpp.o  -o 11050 

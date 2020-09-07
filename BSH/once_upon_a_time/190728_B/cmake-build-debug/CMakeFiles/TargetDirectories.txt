@@ -1,3 +1,0 @@
-/home/bsh/study_algo_gangnam/BSH/190728_B/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bsh/study_algo_gangnam/BSH/190728_B/cmake-build-debug/CMakeFiles/190728_B.dir
-/home/bsh/study_algo_gangnam/BSH/190728_B/cmake-build-debug/CMakeFiles/edit_cache.dir
