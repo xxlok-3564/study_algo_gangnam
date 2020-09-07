@@ -14,19 +14,29 @@ V에 있는 벡터의 개수는 P에 있는 점의 절반이다.
 출력
 각 테스트 케이스마다 정답을 출력한다. 절대/상대 오차는 10-6까지 허용한다.
 """
+from itertools import combinations
+from math import sqrt
 
 
-def selected_all(selected_dot):
+def calc_distance(a, b):
+    return sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)
+
+
+def all_selected(selected_dot):
     for selected in selected_dot:
         if not selected:
             return False
+    return True
 
 
-def dfs(std, saved_dot, selected_dot):
-    for idx, selected in enumerate(selected_dot):
+def dfs(dot_list, selected_dot, total_distance):
 
-        if not selected:
-            selected_dot[idx] = True
+    if all_selected(selected_dot):
+        return
+
+    remained = list()
+
+
 
 
 def main():
@@ -35,16 +45,29 @@ def main():
     for _ in range(T):
         distance = 0.0
         num_dot = int(input())
-        saved_dot = []
+        dot_list = []
         selected_dot = [False] * num_dot
+        idx_list = [element for element in range(num_dot)]
 
-        for dot in range(num_dot):
+        for _ in range(num_dot):
             x, y = map(int, input().split())
-            saved_dot.append([x, y])
+            dot_list.append([x, y])
 
-        for idx, selected in enumerate(selected_dot):
+        candidates = combinations(idx_list, 2)
 
-            if distance > dfs(saved_dot, selected_dot):
+        for selected_two in candidates:
+            selected_dot[selected_two[0]] = True
+            selected_dot[selected_two[1]] = True
+
+            total_distance = calc_distance(dot_list[selected_two[0]], dot_list[selected_two[1]])
+
+            result = dfs(dot_list, selected_dot, total_distance)
+
+            if result < distance:
+                result = distance
+
+            selected_dot[selected_two[0]] = False
+            selected_dot[selected_two[1]] = False
 
 
 if __name__ == "__main__":
